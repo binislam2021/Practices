@@ -1,0 +1,13 @@
+$ git inint =for initialization.
+$ git config --global user.name "your user name" =for setting author userName.
+$ git config --global user.email "your email address" =for setting author userEmail.
+$ git status =for checking work situation.
+$ git add . =for staging all files are in your folder for committing.
+$ git commit -m "your message" =for committing with writing commit message.
+
+$ clear =for clearing the gitbash screen.
+$ git remote add origin https://github.com/binislam2021/MoGo.git =for pushing Setting
+$ git push -u origin master =for pushing
+
+Working directory = Folder
+Commit = Save

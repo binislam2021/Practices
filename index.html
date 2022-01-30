@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Introduction</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Video Pop Up Starts -->
+    <div id="video">
+        <div class="container">
+            <div class="video-main">
+                
+                <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115806.34359550575!2d91.79094155131145!3d24.899747201107232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375054d3d270329f%3A0xf58ef93431f67382!2sSylhet!5e0!3m2!1sen!2sbd!4v1641669915803!5m2!1sen!2sbd" class="map-popup" data-vbtype="iframe">
+                    <i class="fas fa-map-marker-alt"></i>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=A6Prtgjw6uA" class="video-popup" data-autoplay="true" data-vbtype="video">
+                    <i class="fas fa-play"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Video Pop Up Ends -->
+
+    <!--========= Gallery Starts =========-->
+    <div id="gallery">
+        <div class="container">
+            <div class="gallery-nav">
+                <ul>
+                    <li class="active" data-filter="all"><a href="#">All</a></li>
+                    <li data-filter=".web"><a href="#">Web</a></li>
+                    <li data-filter=".logo"><a href="#">Logo Design</a></li>
+                    <li data-filter=".wp"><a href="#">WordPress</a></li>
+                    <li data-filter=".ecom"><a href="#">e-Commerce</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="gallery-content">
+
+            <div class="gallery-item mix web">
+                <img src="images/gal-1.jpg" alt="Gallery 01">
+                <div class="gl-overlay">
+                    <div class="icon">
+                        <a href="images/gal-1.jpg" class="my-popup" data-gall="gallery01">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                    </div>
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <p>Web</p>
+                </div>
+            </div>
+
+            <div class="gallery-item mix web">
+                <img src="images/gal-2.jpg" alt="Gallery 02">
+                <div class="gl-overlay">
+                    <div class="icon">
+                        <a href="images/gal-2.jpg" class="my-popup" data-gall="gallery01">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                    </div>
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <p>Web</p>
+                </div>
+            </div>
+
+            <div class="gallery-item mix logo">
+                <img src="images/gal-3.jpg" alt="Gallery 03">
+                <div class="gl-overlay">
+                    <div class="icon">
+                        <a href="images/gal-3.jpg" class="my-popup" data-gall="gallery01">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                    </div>
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <p>Logo Design</p>
+                </div>
+            </div>
+
+            <div class="gallery-item mix logo web">
+                <img src="images/gal-4.jpg" alt="Gallery 04">
+                <div class="gl-overlay">
+                    <div class="icon">
+                        <a href="images/gal-4.jpg" class="my-popup" data-gall="gallery01">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                    </div>
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <p>Logo Design</p>
+                </div>
+            </div>
+
+            <div class="gallery-item mix wp logo">
+                <img src="images/gal-5.jpg" alt="Gallery 05">
+                <div class="gl-overlay">
+                    <div class="icon">
+                        <a href="images/gal-5.jpg" class="my-popup" data-gall="gallery01">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                    </div>
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <p>Wordpress</p>
+                </div>
+            </div>
+
+            <div class="gallery-item mix wp">
+                <img src="images/gal-6.jpg" alt="Gallery 06">
+                <div class="gl-overlay">
+                    <div class="icon">
+                        <a href="images/gal-6.jpg" class="my-popup" data-gall="gallery01">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                    </div>
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <p>Wordpress</p>
+                </div>
+            </div>
+
+            <div class="gallery-item mix ecom">
+                <img src="images/gal-7.jpg" alt="Gallery 07">
+                <div class="gl-overlay">
+                    <div class="icon">
+                        <a href="images/gal-7.jpg" class="my-popup" data-gall="gallery01">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                    </div>
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <p>e-Commerce</p>
+                </div>
+            </div>
+
+            
+            <div class="gallery-item mix ecom">
+                <img src="images/gal-8.jpg" alt="Gallery 08">
+                <div class="gl-overlay">
+                    <div class="icon">
+                        <a href="images/gal-8.jpg" class="my-popup" data-gall="gallery01">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                    </div>
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <p>e-Commerce</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--========= Gallery Ends =========-->
+
+    <!--========= Banner Starts =========-->
+    <section id="banner">
+        <div class="banner-slider">
+            <div class="banner-item bg-1">
+                <div class="container">
+                    <div class="banner-txt">
+                        <h1>fresh, simple &amp; unique design</h1>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner-item bg-2">
+                <div class="container">
+                    <div class="banner-txt">
+                        <h1>simple, fresh &amp; unique design</h1>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner-item bg-3">
+                <div class="container">
+                    <div class="banner-txt">
+                        <h1>fresh, unique &amp; simple design</h1>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--========= Banner Ends =========-->
+
+    
+    <!--========= Team Starts =========-->
+    <section id="team">
+        <h3>Our Team</h3>
+        <div class="team-txt">
+            <div class="txt-slider">
+                <div class="txt-item">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut optio blanditiis dolorum libero nobis incidunt placeat dolorem excepturi laborum officia.</p>
+                    <h5>A</h5>
+                </div>
+                <div class="txt-item">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut optio blanditiis dolorum libero nobis incidunt placeat dolorem excepturi laborum officia.</p>
+                    <h5>B</h5>
+                </div>
+                <div class="txt-item">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut optio blanditiis dolorum libero nobis incidunt placeat dolorem excepturi laborum officia.</p>
+                    <h5>C</h5>
+                </div>
+                <div class="txt-item">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut optio blanditiis dolorum libero nobis incidunt placeat dolorem excepturi laborum officia.</p>
+                    <h5>D</h5>
+                </div>
+                <div class="txt-item">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut optio blanditiis dolorum libero nobis incidunt placeat dolorem excepturi laborum officia.</p>
+                    <h5>E</h5>
+                </div>
+                <div class="txt-item">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut optio blanditiis dolorum libero nobis incidunt placeat dolorem excepturi laborum officia.</p>
+                    <h5>F</h5>
+                </div>
+                <div class="txt-item">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut optio blanditiis dolorum libero nobis incidunt placeat dolorem excepturi laborum officia.</p>
+                    <h5>G</h5>
+                </div>
+                <div class="txt-item">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut optio blanditiis dolorum libero nobis incidunt placeat dolorem excepturi laborum officia.</p>
+                    <h5>H</h5>
+                </div>
+                <div class="txt-item">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut optio blanditiis dolorum libero nobis incidunt placeat dolorem excepturi laborum officia.</p>
+                    <h5>I</h5>
+                </div>
+                <div class="txt-item">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut optio blanditiis dolorum libero nobis incidunt placeat dolorem excepturi laborum officia.</p>
+                    <h5>J</h5>
+                </div>
+            </div>
+        </div>
+        <div class="team-img">
+            <div class="team-slider">
+                <img src="images/team-1.jpg" alt="Team-1">
+                <img src="images/team-2.jpg" alt="Team-2">
+                <img src="images/team-3.jpg" alt="Team-3">
+                <img src="images/team-4.jpg" alt="Team-4">
+                <img src="images/team-5.jpg" alt="Team-5">
+                <img src="images/team-6.jpg" alt="Team-6">
+                <img src="images/team-7.jpg" alt="Team-7">
+                <img src="images/team-8.jpg" alt="Team-8">
+                <img src="images/team-9.jpg" alt="Team-9">
+                <img src="images/team-10.jpg" alt="Team-10">
+            </div>
+        </div>
+    </section>
+    <!--========= Team Ends =========-->
+
+
+
+    
+    <!--========= JS Files Link Up Starts =========-->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!--========= JS Files Link Up Ends =========-->
+
+    <!--=========  Starts =========-->
+    <!--=========  Ends =========-->
+    
+</body>
+</html>
